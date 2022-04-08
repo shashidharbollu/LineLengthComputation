@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace LineLengthComputation
 {
     public class LineComputationn
-    
+
     {
         int x1, x2, y1, y2;
         public LineComputationn(int x1, int x2, int y1, int y2)
@@ -20,7 +20,7 @@ namespace LineLengthComputation
         public void calculateLength()
         {
             double result = Math.Sqrt((x2 - x1) ^ 2 + (y2 - y1) ^ 2);
-            Console.WriteLine("Length og the Cartesian Line:" + " " + result);
+            Console.WriteLine("Length of the Cartesian Line:" + " " + result);
         }
     }
 }
