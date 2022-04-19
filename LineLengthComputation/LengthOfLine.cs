@@ -15,9 +15,5 @@
             this.v4 = v4;
         }
 
-        internal void calculateLength()
-        {
-            throw new NotImplementedException();
-        }
     }
 }
